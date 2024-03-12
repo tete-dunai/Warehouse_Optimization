@@ -59,5 +59,3 @@ fig2=px.line(forecast(df2,prod_code))
 fig2.update_traces(line_color='#189ab4')
 fig.add_trace(fig2.data[0])
 st.plotly_chart(fig,use_container_width=True)
-
-
