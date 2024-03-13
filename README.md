@@ -1,7 +1,11 @@
 # Warehouse Optimization or Prediction
 
 Not working because of low memory for free render tier
+try cloning
 [Link to Project](https://unsupervised-learning-cluster-streamlit.onrender.com)
+
+`streamlit run dashboard.py`
+
 ![GIF](src/Animation.gif)
 
 Tech Stack:
@@ -30,4 +34,4 @@ This dataset is all real-life data and products/warehouse and category informati
 
 ## Inspiration
 
-Is it possible to make forecasts for thousands of products (some of them are highly variable in terms of monthly demand) for the the months after next ?
+Is it possible to make forecasts for thousands of products (some of them are highly variable in terms of monthly demand) for the the months after next?
