@@ -25,6 +25,9 @@ df=clean_data(read_data('Data/demand_hist_prod.csv'))
 st.sidebar.header("Choose your Filter: ")
 # Choose the Warehouse
 wh_name=st.sidebar.selectbox("Warehouse",df['Warehouse'].unique())
+if not wh_name:
+    df2=df.copy()
+else:
     df2=get_wh_data(df,wh_name)
 
 #Choose the product Code
