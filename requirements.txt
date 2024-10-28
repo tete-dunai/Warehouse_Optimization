@@ -1,6 +1,6 @@
 pandas
-numpy==1.21.6
 plotly
 matplotlib
 streamlit
-pmdarima==1.8.2
+numpy==1.26.0  # Compatible with Python 3.12
+pmdarima==2.0.4  # Adjust to a compatible version
