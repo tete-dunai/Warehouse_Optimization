@@ -1,6 +1,6 @@
 pandas
-numpy
+numpy==1.21.6
 plotly
 matplotlib
 streamlit
-pmdarima
+pmdarima==1.8.2
